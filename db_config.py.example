@@ -1,0 +1,20 @@
+# Example database configuration file
+# Copy this file to db_config.py and update with your credentials
+
+# Database configuration for reader access
+reader_config = {
+    'host': 'your_host',
+    'user': 'your_reader_username',
+    'password': 'your_reader_password',
+    'database': 'your_database',
+    'connect_timeout': 300
+}
+
+# Database configuration for writer access
+writer_config = {
+    'host': 'your_host',
+    'user': 'your_writer_username',
+    'password': 'your_writer_password',
+    'database': 'your_database',
+    'connect_timeout': 300
+}
